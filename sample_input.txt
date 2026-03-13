@@ -1,0 +1,14 @@
+add_book "The Great Gatsby" "F. Scott Fitzgerald" 2
+add_book "1984" "George Orwell" 1
+register_member "Alice Johnson"
+register_member "Bob Smith"
+borrow_book 1 1
+borrow_book 2 1
+borrow_book 1 2
+check_availability 1
+borrow_book 1 1
+display_member_books 1
+return_book 1 1
+check_availability 1
+borrow_book 3 1
+display_library_status
